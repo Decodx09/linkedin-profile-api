@@ -1,0 +1,18 @@
+# Render.com blueprint — one-click deploy over HTTPS.
+# Set the secret env vars (LINKEDIN_LI_AT, optionally API_KEY) in the dashboard;
+# do NOT commit them.
+services:
+  - type: web
+    name: linkedin-profile-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: LINKEDIN_LI_AT
+        sync: false
+      - key: LINKEDIN_JSESSIONID
+        sync: false
+      - key: API_KEY
+        sync: false
+      - key: CACHE_TTL_SECONDS
+        value: "3600"

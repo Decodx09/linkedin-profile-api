@@ -1,0 +1,90 @@
+{
+  "ok": true,
+  "source": "linkedin-voyager",
+  "cached": false,
+  "fetched_at": "2026-08-30T15:04:13Z",
+  "profile": {
+    "public_id": "adalovelace",
+    "profile_url": "https://www.linkedin.com/in/adalovelace/",
+    "first_name": "Ada",
+    "last_name": "Lovelace",
+    "full_name": "Ada Lovelace",
+    "headline": "Mathematician \u0026 first computer programmer",
+    "summary": "Worked with Charles Babbage on the Analytical Engine; wrote the first published algorithm.",
+    "location": "London, England, United Kingdom",
+    "country": "United Kingdom",
+    "industry": "Software Development",
+    "profile_picture": "https://media.licdn.com/dms/image/400_400/profile.jpg",
+    "background_image": "https://media.licdn.com/dms/image/1400/bg.jpg",
+    "experience": [
+      {
+        "title": "Analyst",
+        "company": "Analytical Engine Project",
+        "company_linkedin_url": "https://www.linkedin.com/company/1446919/",
+        "employment_type": "",
+        "location": "London",
+        "description": "Designed the first algorithm intended for machine execution.",
+        "date_range": {
+          "start": "1842-05",
+          "end": "1843"
+        },
+        "company_logo": ""
+      }
+    ],
+    "education": [
+      {
+        "school": "Private Tutoring",
+        "degree": "Mathematics \u0026 Science",
+        "field_of_study": "Mathematics",
+        "description": "",
+        "grade": "",
+        "activities": "",
+        "date_range": {
+          "start": "1832",
+          "end": "1840"
+        },
+        "school_logo": ""
+      }
+    ],
+    "skills": [
+      "Algorithms",
+      "Mathematics",
+      "Analytical Engines"
+    ],
+    "certifications": [
+      {
+        "name": "Fellow",
+        "authority": "Royal Society",
+        "license_number": "",
+        "url": "",
+        "date_range": {
+          "start": "1843",
+          "end": ""
+        }
+      }
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "NATIVE_OR_BILINGUAL"
+      },
+      {
+        "name": "French",
+        "proficiency": "PROFESSIONAL_WORKING"
+      }
+    ],
+    "volunteer": [],
+    "publications": [],
+    "honors": [],
+    "contact_info": {
+      "emails": [
+        "ada@example.com"
+      ],
+      "phone_numbers": [],
+      "websites": [
+        "https://ada.example.com"
+      ],
+      "twitter": []
+    }
+  }
+}

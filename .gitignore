@@ -1,0 +1,22 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+cookies.json
+li_cookies.json
+
+# Go build artifacts
+/server
+/linkedin-profile-api
+*.exe
+*.test
+*.out
+bin/
+dist/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
